@@ -1,0 +1,70 @@
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 8%;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements horizontally */
+    height: auto; /* Adjust height as necessary */
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.payment-container h2 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.payment-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-form .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.payment-form label {
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text within label */
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"] {
+    width: 80%; /* Adjust width to make inputs larger */
+    padding: 15px; /* Increase padding for larger inputs */
+    font-size: 18px; /* Increase font size for readability */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px; /* Increase margin for better spacing */
+    background: white; /* White background for inputs */
+}
+
+.payment-container button[type="button"] {
+    background: rgba(255, 255, 255, 0.5);
+    color:  #ff416c;
+    padding: 15px 25px; /* Increase padding for larger button */
+    font-size: 18px; /* Increase font size for readability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%; /* Ensure button is same width as inputs */
+    text-align: center;
+    margin-top: 5px; /* Add margin to separate from other elements */
+    font-size: 14px;
+}
+
+.payment-container button[type="button"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+    color:  white;
+}

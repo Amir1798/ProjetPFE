@@ -1,0 +1,129 @@
+/* Styles pour le conteneur du formulaire */
+.san-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px; /* Reduced for less vertical spacing */
+    color: #fff;
+}
+
+/* Styling for form groups with two inputs side by side */
+.san-container .input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px; /* Reduced margin to decrease vertical space */
+}
+
+/* Styles for individual input containers to manage spacing */
+.san-container .input-group div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.san-container .input-group div:last-child {
+    margin-right: 0;
+}
+
+/* Input and label styling */
+.san-container input[type="text"],
+.san-container input[type="date"],
+.san-container input[type="file"],
+
+.san-container input[type="number"],
+.san-container select {
+    width: 100%;
+    padding: 8px; /* Reduced padding to decrease height */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+.san-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+.san-container button[type="submit"] {
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 8px 18px; /* Slightly smaller padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%; /* Reduced width for a neater look */
+    align-self: center;
+}
+
+.san-container button[type="submit"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+}
+
+.add-button {
+    background: linear-gradient(to left, #ff4b2b, #ff416c);
+    color: white;
+    padding: 8px 18px; /* Slightly smaller padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%; /* Reduced width for a neater look */
+    align-self: center; 
+}
+
+/* Styles pour les sections */
+.san-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Styles pour les colonnes */
+.san-column {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.san-column:last-child {
+    margin-right: 0;
+}
+
+/* Message styling */
+.message {
+    margin-top: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Icon button styling */
+.san-section button {
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.san-section button:hover {
+    color: darkred;
+}

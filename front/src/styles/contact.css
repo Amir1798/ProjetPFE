@@ -1,0 +1,72 @@
+.contact-container {
+  position: relative;
+  padding-bottom: 100px; /* Add top padding to create space for the footer */
+}
+
+.con {
+  margin-top: 150px; /* Add space at the top of the form */
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px); /* Shifts it down the page */
+  background: linear-gradient(to right, #ff4b2b, #ff416c); /* Added background color */
+  padding: 20px; /* Added padding */
+  border-radius: 10px; /* Added border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.con_form {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.con_form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff; /* Changed title color to white */
+}
+
+.con_form .row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.con_form input[type="text"],
+.con_form input[type="email"],
+.con_form input[type="number"],
+.con_form textarea {
+  width: calc(100% - 22px); /* Full width, accounting for padding and border */
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 5px;
+}
+
+.con_form textarea {
+  height: 100px;
+}
+
+.con_form button[type="submit"] {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ff4b2b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.con_form button[type="submit"]:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c); 
+  color: #fff;
+}

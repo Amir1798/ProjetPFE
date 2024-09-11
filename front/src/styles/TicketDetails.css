@@ -1,0 +1,59 @@
+.ticket-details-container {
+    max-width: 800px;
+    margin: 410px auto 0 auto; /* Add top margin to avoid navbar overlap */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.ticket-details-container h2,
+.ticket-details-container h3 {
+    text-align: center;
+}
+
+.ticket-details-container .messages {
+    margin-top: 20px;
+}
+
+.ticket-details-container .message-box {
+    background-color: #f9f9f9;
+    padding: 10px; /* Reduced padding */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    word-wrap: break-word; /* Ensure text wraps within the container */
+}
+
+.ticket-details-container .message-box p {
+    margin: 5px 0;
+    font-size: 14px; /* Reduced font size */
+}
+
+.ticket-details-container textarea {
+    width: 100%;
+    height: 80px; /* Reduced height */
+    margin-top: 10px; /* Reduced margin-top */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px; /* Reduced font size */
+}
+
+.ticket-details-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ticket-details-container button:hover {
+    background-color: #ff416c;
+}

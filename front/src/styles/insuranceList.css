@@ -1,0 +1,88 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10000px; 
+}
+
+.insurance-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.insurance-block {
+    background-color: #f9f9f9;
+    border: 2px solid #ff6f3d;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.insurance-block:hover {
+    transform: translateY(-5px);
+}
+
+.insurance-details {
+    background-color: #e65c2a !important;  /* Added background color */
+}
+
+.insurance-details h3 {
+    font-size: 1em !important;
+    margin-bottom: 10px;
+    color: #fff; /* Ensure text color contrasts with background */
+}
+
+.insurance-details p {
+    font-size: 0.8em !important;
+    margin: 5px 0;
+    color: #fff; /* Ensure text color contrasts with background */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #ff6f3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+}
+
+.pagination .active {
+    background-color: #e65c2a;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.details-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #e65c2a;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.details-link:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+        color: #fff;
+}

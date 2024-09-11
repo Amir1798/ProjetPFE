@@ -1,0 +1,59 @@
+/* slider.css */
+.slider {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 180px); /* Adjust the height to fit between navbar and footer */
+    overflow: hidden;
+    margin-top: 80px; /* Adjust to match the height of the navbar */
+  }
+
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .left-arrow:hover,
+  .right-arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  

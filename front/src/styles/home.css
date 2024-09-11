@@ -1,0 +1,45 @@
+/* Slider.css */
+
+.homepage{
+    margin-top: 250px;
+}
+.carousel-item img {
+    width: 30%;
+    height: auto;
+}
+
+/* SubscriptionInfo.css */
+.subscription-info {
+    background-color: #f8f9fa; /* Change to your desired background color */
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.subscription-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-info p {
+    font-size: 16px;
+}
+
+/* SubscriptionSteps.css */
+.subscription-steps {
+    background-color: #f0f0f0; /* Change to your desired background color */
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.subscription-steps h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-steps ol {
+    font-size: 16px;
+}
+
+.subscription-steps li {
+    margin-bottom: 10px;
+}

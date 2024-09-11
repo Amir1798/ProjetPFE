@@ -1,0 +1,80 @@
+/* Styles for the voiture form container */
+.voit-container {
+    max-width: 700px; /* Reduced max width */
+    margin: 0 auto;
+    padding: 15px; /* Reduced padding for a more compact layout */
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px; /* Adjusted margin to better fit between navbar and footer */
+    margin-bottom: 50px; /* Reduced bottom margin for tighter vertical spacing */
+}
+
+/* Title */
+.voit-container h2 {
+    color: #ffffff;
+    margin-bottom: 15px; /* Reduced margin for tighter heading */
+    font-size: 22px; /* Slightly smaller font size for compactness */
+}
+
+/* Styles for labels and inputs */
+.voit-container label {
+    display: block;
+    margin-bottom: 8px; /* Tighter margin between labels and inputs */
+    font-size: 15px; /* Slightly smaller font size */
+    color: #fff;
+}
+
+.voit-container input[type="text"],
+.voit-container input[type="date"],
+.voit-container input[type="file"],
+.voit-container textarea,
+.voit-container select {
+    width: 100%;
+    padding: 8px; /* Reduced padding for inputs */
+    font-size: 15px; /* Uniform font size across inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Reduced margin between inputs */
+    background-color: #fff;
+    color: #333;
+}
+
+/* Styles for the submission button */
+.voit-container button[type="submit"] {
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 8px 18px; /* Slightly reduced padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%; /* Reduced width for a neater look */
+    align-self: center;
+}
+
+.voit-container button[type="submit"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+}
+
+/* Styles for the message display */
+.message {
+    margin-top: 10px; /* Reduced margin top */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px; /* Reduced padding for compactness */
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Styles for the form group */
+.form-group {
+    width: 100%; /* Ensure full width utilization */
+    margin-bottom: 8px; /* Slightly reduced margin for a compact layout */
+}

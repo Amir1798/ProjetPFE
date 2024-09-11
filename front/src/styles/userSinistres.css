@@ -1,0 +1,70 @@
+.user-sinistres-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sinistres-list {
+    margin-bottom: 30px;
+}
+
+.sinistres-list .sinistre-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sinistre-info {
+    flex-grow: 1;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.details-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: auto; /* Move the cancel button to the right */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

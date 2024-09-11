@@ -1,0 +1,84 @@
+.edit-profile {
+    max-width: 900px; /* Adjusted width to match sinistre form */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c); /* Consistent gradient background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Consistent text color */
+    margin-top: 150px; /* Increased to provide space below the navbar */
+    margin-bottom: 80px; /* Ensures space above the footer */
+}
+
+.edit-profile form {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); /* Consistent background with the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width for responsiveness */
+}
+
+.edit-profile h2 {
+    color: #ffffff80; /* Light white for better visibility */
+    margin-bottom: 15px; /* Reduced margin for tight spacing */
+    font-size: 24px; /* Larger font size for better readability */
+}
+
+.edit-profile label {
+    display: block;
+    margin-bottom: 8px; /* Reduced margin for tighter layout */
+    font-size: 16px;
+    color: #fff; /* White color for labels to match the theme */
+}
+
+.edit-profile input[type="text"],
+.edit-profile input[type="date"],
+.edit-profile input[type="file"],
+.edit-profile textarea,
+.edit-profile select {
+    width: 100%; /* Full width inputs for uniformity */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Consistent border */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Uniform spacing */
+    background-color: #fff; /* White background for inputs */
+    color: #333; /* Darker text for better readability */
+}
+
+.edit-profile button[type="submit"] {
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%; /* Button width adjusted for better alignment */
+    margin-top: 10px; /* Margin adjusted for spacing */
+    transition: background-color 0.3s;
+    align-self: center; /* Center align the button */
+}
+
+.edit-profile button[type="submit"]:hover {
+    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Gradient on hover for visual effect */
+    color: white;
+}
+
+.message {
+    margin-top: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for visibility */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Full width for the message box */
+    color: #fff; /* White text for visibility */
+}
+
+.form-group {
+    width: 100%; /* Full width for form groups for consistency */
+    margin-bottom: 10px; /* Reduced margin for compact layout */
+}

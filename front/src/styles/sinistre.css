@@ -1,0 +1,89 @@
+.sinistre-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Text color inside the form */
+    margin-top: 200px; /* Increased to provide space below the navbar */
+    margin-bottom: 80px;
+    min-height: 0px;
+  }
+  
+  .sinistre-container form {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  /* Title */
+  .sinistre-container h2 {
+    color:#ffffff80 ;
+    margin-bottom: 15px; /* Reduced margin bottom */
+    font-size: 24px;
+  }
+  
+  /* Styles for labels and inputs */
+  .sinistre-container label {
+    display: block;
+    margin-bottom: 8px; /* Reduced margin bottom */
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .sinistre-container input[type="text"],
+  .sinistre-container input[type="date"],
+  .sinistre-container input[type="file"],
+
+  .sinistre-container textarea,
+  .sinistre-container select {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Reduced margin bottom */
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .sinistre-container button[type="submit"] {
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 10px; /* Reduced margin top */
+    transition: background-color 0.3s;
+    align-self: center;
+  }
+  
+  .sinistre-container button[type="submit"]:hover {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+  }
+  
+  .message {
+    margin-top: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 10px; /* Reduced margin bottom */
+  }
+  

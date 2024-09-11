@@ -1,0 +1,92 @@
+/* detailsInsurance.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.insurance-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+}
+
+.insurance-details {
+    background: #ff4b2b; /* Updated background color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 40px; /* Added padding to the sides */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside the container */
+    max-width: 500px; /* Limit the width of the container */
+    width: 100%; /* Ensure it takes full width up to max-width */
+    margin: 0 20px; /* Added margin to avoid edge touching */
+}
+
+.insurance-details h2 {
+    margin-bottom: 20px;
+    color: #fff; /* Changed text color to white */
+}
+
+.insurance-details p {
+    margin-bottom: 10px;
+    color: #fff; /* Changed text color to white */
+}
+
+.loading {
+    text-align: center;
+    color: #fff; /* Changed text color to white */
+}
+
+.not-found {
+    text-align: center;
+    color: #ff0000;
+}
+
+/* Styling for specific fields */
+.insurance-details p.label {
+    font-weight: bold;
+    color: #fff; /* Changed text color to white */
+}
+
+.insurance-details p.value {
+    color: #fff; /* Changed text color to white */
+}
+
+.insurance-details .id {
+    color: #007bff;
+}
+
+.insurance-details .price {
+    color: #28a745;
+}
+
+.insurance-details .state {
+    color: #ffc107;
+}
+
+.insurance-details .remaining {
+    color: #dc3545;
+}
+
+.payment-button {
+    background-color: #fff;
+
+    border: none;
+    color:#ff6f3d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px auto 0; /* Center the button and add margin at the top */
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.payment-button:hover {
+    background-color: #ff6f3d;
+    color: white;
+}

@@ -1,0 +1,88 @@
+.con {
+    margin-top: 100px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 200px); /* Shifts it down the page */
+    background: linear-gradient(to right, #ff4b2b, #ff416c); /* Background gradient */
+    padding: 20px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .con_form {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .con_form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5); /* Title color */
+  }
+  
+  .con_form .row {
+    margin-bottom: 20px;
+  }
+  
+  .con_form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* Label color */
+  }
+  
+  .con_form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 5px;
+  }
+  
+  .con_form .back-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .con_form .back-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .con_form .back-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .con_form button[type="submit"] {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: #ff4b2b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width */
+    margin-top: 10px;
+  }
+  
+  .con_form button[type="submit"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); /* Hover background color */
+    color: white;
+  }
+.con .back-link {
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.con .back-link:hover {
+    background : linear-gradient(to right, #ff4b2b, #ff416c);
+    
+}

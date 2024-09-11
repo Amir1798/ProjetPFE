@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.loggedNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.66);
+    background: #ff416c;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.log_menu{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex: 1;
+
+}
+
+
+.navbut{
+    border-radius: 18px;
+    border: 1px solid #ff4b2b;
+    background-color: rgba(245, 245, 245, 0.192);
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 45px;
+    transition: transform 80ms ease-in;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    
+}
+
+.decon{
+    border-radius: 18px;
+    border: 1px solid #ff4b2b;
+    background-color: rgba(245, 245, 245, 0.192);
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 45px;
+    transition: transform 80ms ease-in;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    margin-left: auto;
+    flex: 0 0 auto;
+}
+
+
+
+.log_elements{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.log_elements a{
+     text-decoration: none;
+     font-weight: 600;
+     color: rgba(245, 245, 245, 0.733);
+     transition: 0.3s ease-in-out ;
+}
+
+.log_elements a:hover{
+    color: whitesmoke;
+}
+
+.log_elements a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: whitesmoke;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+.logo-container {
+    margin-right: auto; 
+}
+
+.sitelog {
+    width: 70px; 
+    height: auto; 
+
+}
+
+.acc{
+    font-size: 20px; 
+    font-family: 'Montserrat';
+}
+
+.siteTitle{
+    font-size: 25px; 
+    font-family: 'Montserrat';
+    color: rgba(245, 245, 245, 0.733);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+/* Styles for the retraite form container */
+.retraite-container {
+    max-width: 700px; /* Adjusted for a more compact width */
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px; /* Adjust as needed */
+}
+
+/* Title styling */
+.retraite-container h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input group styling for label and inputs */
+.retraite-container .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+.retraite-container .input-group label {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.retraite-container .input-group input[type="text"],
+.retraite-container .input-group input[type="date"],
+.retraite-container .input-group input[type="file"],
+.retraite-container select,
+.retraite-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+.retraite-container .input-group input[type="file"] {
+    padding: 3px;
+}
+
+/* File input label styling */
+.retraite-container .file-input-label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: rgba(245, 245, 245, 0.192);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/* Button styling */
+.retraite-container button[type="submit"] {
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50%;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.retraite-container button[type="submit"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+}
+
+/* Message styling */
+.message {
+    margin-top: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Styles for the form group */
+.form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,140 @@
+/* Styles for the project form container */
+.proj-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px; /* Reduced for less vertical spacing */
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* Title styling */
+.proj-container h2 {
+    color: #ffffff;
+    margin-bottom: 10px; /* Reduced margin for tighter heading */
+    font-size: 22px; /* Slightly smaller font size */
+}
+
+/* Styles for labels and inputs */
+.proj-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px; /* Slightly smaller font size */
+    color: #fff;
+}
+
+/* Flex container for input groups */
+.proj-container .input-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px; /* Reduced margin to decrease vertical space */
+}
+
+.proj-container .input-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.proj-container .input-group:last-child {
+    margin-right: 0;
+}
+
+.proj-container input[type="text"],
+.proj-container input[type="date"],
+.proj-container input[type="number"],
+.proj-container input[type="file"],
+.proj-container textarea,
+.proj-container select {
+    width: 100%;
+    padding: 8px; /* Reduced padding for inputs */
+    font-size: 14px; /* Uniform font size across inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px; /* Reduced margin between inputs */
+    background-color: #fff;
+    color: #333;
+}
+
+/* Button styling */
+.proj-container button[type="submit"],
+.proj-container button[type="button"] {
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 8px 18px; /* Slightly smaller padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%; /* Adjusted width for a balanced look */
+    align-self: center;
+    margin-top: 10px;
+}
+
+.proj-container button[type="submit"]:hover,
+.proj-container button[type="button"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+}
+
+/* Actionnaire group styling */
+.proj-container .actionnaire-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.proj-container .actionnaire-group label {
+    font-size: 14px;
+}
+
+.proj-container .actionnaire-group input[type="text"],
+.proj-container .actionnaire-group input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.proj-container .actionnaire-group button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    font-size: 24px;
+}
+
+.proj-container .actionnaire-group button:hover {
+    color: #ff4b2b;
+}
+
+/* Styles for the message */
+.message {
+    margin-top: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Styles for the form group */
+.form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+

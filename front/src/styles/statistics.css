@@ -1,0 +1,25 @@
+.stats-container {
+    max-width: 800px; /* Reduced the maximum width */
+    margin: 0 auto;
+    padding: 20px; /* Reduced padding */
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    margin-top: 400px;
+}
+.stats-container h2{
+    color: rgba(255, 255, 255, 0.5);
+  }
+.chart-container {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 400px !important; /* Reduced the height */
+}

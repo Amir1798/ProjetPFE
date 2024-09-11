@@ -1,0 +1,72 @@
+.cot-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 8%;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements horizontally */
+    height: auto; /* Adjust height as necessary */
+    margin-bottom: 50px;
+    min-width: 500px;
+    
+}
+
+.cot-container h2 {
+    color: rgba(255, 255, 255, 0.5); 
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.cot-container label {
+    color: white;
+    margin-bottom: 5px; /* Reduced margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text within label */
+}
+
+.cot-container input[type="text"],
+.cot-container input[type="number"],
+.cot-container select {
+    width: 80%; /* Adjust width to make inputs larger */
+    padding: 10px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px; /* Reduced margin */
+}
+
+.cot-container .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure input groups are full width */
+    align-items: center; /* Center input groups */
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.cot-container button[type="button"] {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    padding: 10px 20px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%; /* Ensure button is same width as inputs */
+    text-align: center;
+}
+
+.cot-container button[type="button"]:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+    color: white;
+}
+
+.cot-container .error-message {
+    color: red;
+    margin-top: 5px; /* Reduced margin */
+}

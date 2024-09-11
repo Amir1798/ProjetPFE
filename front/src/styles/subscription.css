@@ -1,0 +1,66 @@
+* {
+  font-family: "Montserrat";
+}
+
+.subscriptions-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.subscription-container {
+  width: 600px; /* Adjust width as needed */
+  color: white;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to right, #ff4b2b, #ff416c); /* Orange pêche background */
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.arrow {
+  font-size: 2rem;
+  color: #ff7e5f; /* Color for the arrow icons */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff80; /* Background color for arrow container */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.left-arrow {
+  left: -20px; /* Adjust to position arrow inside the card */
+}
+
+.right-arrow {
+  right: -20px; /* Adjust to position arrow inside the card */
+}
+
+.arrow:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c); /* Orange pêche background */
+  color: white;
+}
+
+.nxt {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.subscription-button{
+  background: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+}
+.subscription-button:hover{
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+}

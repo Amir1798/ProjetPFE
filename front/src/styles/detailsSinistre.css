@@ -1,0 +1,74 @@
+.insurance-details-container {
+    width: 60%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.insurance-details {
+    background: linear-gradient(to right, #ff4b2b, #ff416c) !important; 
+     border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Limit the width */
+    margin: auto; /* Center the container */
+}
+
+.insurance-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.insurance-details p {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.loading {
+    text-align: center;
+    color: #fff;
+}
+
+.not-found {
+    text-align: center;
+    color: #ff0000;
+}
+
+/* Styling for specific fields */
+.insurance-details p.label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.insurance-details p.value {
+    color: #fff;
+}
+
+.insurance-details .id {
+    color: #fff;
+}
+
+/* Additional styling for blocks */
+.block {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.block h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.photos img {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}

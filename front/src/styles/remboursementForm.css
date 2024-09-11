@@ -1,0 +1,81 @@
+.remboursement-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .remboursement-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);;
+  }
+  
+  .remboursement-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .remboursement-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .remboursement-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .remboursement-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #ff4b2b;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remboursement-container button:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+    color: #fff;
+  }
+  
+  .remboursement-container select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .remboursement-container .main-use {
+    margin-bottom: 15px;
+  }
+  
+  .remboursement-container .join-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .remboursement-container .join-button button {
+    background-color: #ff8a65;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remboursement-container .join-button button:hover {
+    background-color: #ff6f61;
+  }

@@ -1,0 +1,60 @@
+
+.upload-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 8%;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    height: auto; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; /* Ensure text is readable on the background */
+}
+.upload-container h2{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* Styles for the drag-and-drop area */
+.upload-container .dropzone {
+    border: 2px dashed #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* Styles for buttons */
+.upload-container button {
+    background : rgba(255, 255, 255, 0.5);
+    color: #ff6f3d ;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.upload-container button:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+    color: #fff;
+}
+
+/* Styles for the "Choisir un fichier" button */
+.upload-container .add-button {
+    background : rgba(255, 255, 255, 0.5);
+    color: #ff6f3d ;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.upload-container .add-button:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c); 
+    color: #fff;
+}
